@@ -1,0 +1,304 @@
+@media (max-width: 744px) {
+
+    .cont_logo {
+        width: 50%;
+    }
+
+    nav {
+        width: 50%;
+    }
+
+    /* Ocultar texto, mantener íconos */
+    nav ul li a {
+        font-size: 0;
+        padding: 10px;
+    }
+
+    main {
+        padding: 0px 30px;
+    }
+
+    .cont_banner {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "titulo" "imagen" "bio" "botones" "redes";
+    }
+
+    .banner_bio {
+        width: 85%;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .banner_acciones {
+        justify-content: center;
+    }
+
+    .banner_redes {
+        justify-content: center;
+    }
+
+    /* Sección Sobre Mí */
+    .cont_sobre_mi {
+        grid-template-columns: 1fr;
+        grid-template-areas: "info" "ficha" "cualidades";
+        gap: 30px;
+    }
+
+    .ficha_profesional {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        grid-template-areas: "foto titulo" "foto lista";
+        gap: 12px 20px;
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .ficha_foto {
+        grid-area: foto;
+        height: 100%;
+    }
+
+    .ficha_titulo {
+        grid-area: titulo;
+        margin-bottom: 0;
+    }
+
+    .ficha_lista {
+        grid-area: lista;
+        width: 90%;
+    }
+
+    .deco_hoja_izq {
+        top: 165px;
+        left: -10px;
+    }
+
+    .deco_leon_der {
+        top: 20px;
+        right: -5px;
+    }
+
+    .deco_hoja_abajo_izq {
+        bottom: -80px;
+        left: -35px;
+    }
+
+    .deco_hoja_abajo_der {
+        bottom: -80px;
+        right: -35px;
+    }
+
+    /* Sección Formación Académica */
+
+    .cont_formacion {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "linea"
+            "tarjeta";
+        gap: 35px;
+    }
+
+    .formacion_linea {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 25px 0 0 0;
+        gap: 15px;
+    }
+
+    .linea_divisora {
+        width: 100%;
+        height: 2px;
+    }
+
+    .linea_item {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .linea_punto {
+        left: 50%;
+        top: -33px;
+        transform: translateX(-50%);
+    }
+
+    .formacion_tarjeta {
+        grid-template-columns: 1fr;
+    }
+
+    .formacion_foto {
+        min-height: 260px;
+        height: 360px;
+    }
+
+    .formacion_grado {
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .formacion_numero {
+        margin-bottom: 0;
+    }
+
+    .semestre_texto {
+        margin-bottom: 10px;
+    }
+
+    .formacion_carrera {
+        margin-top: 20px;
+    }
+
+    /* Sección Experiencia Laboral */
+    .experiencia {
+        padding: 30px 0;
+    }
+
+    .cont_experiencia {
+        gap: 15px;
+    }
+
+    .exp_tarjeta {
+        grid-template-columns: 1fr;
+    }
+
+    .exp_foto {
+        min-height: 250px;
+        height: 320px;
+    }
+
+    /* Sección Habilidades */
+
+    .hab_leon_izq {
+        width: 150px;
+        top: 170px;
+        left: -5px;
+    }
+
+    .hab_leon_der {
+        width: 150px;
+        top: 170px;
+        right: -50px;
+    }
+
+    .hab_logos {
+        gap: 35px 40px;
+    }
+
+    .hab_item {
+        height: 65px;
+    }
+
+    /* Sección Proyectos */
+
+    .proy_deco_tab {
+        display: none;
+    }
+
+    .proy_deco_amico {
+        display: block;
+        top: 680px;
+        bottom: auto;
+        left: 15px;
+        width: 175px;
+        z-index: 3;
+    }
+
+    .proy_texto {
+        padding-left: 145px;
+    }
+
+    .proy_deco_vector {
+        width: 260px;
+        top: 190px;
+        right: -30px;
+    }
+
+    .proy_estrella_1 {
+        top: 220px;
+        right: 30px;
+        width: 45px;
+    }
+
+    .proy_estrella_2 {
+        top: 340px;
+        right: 10px;
+        width: 40px;
+    }
+
+    .proy_info {
+        padding: 28px 30px;
+    }
+
+    /* Sección Contacto */
+    .contacto {
+        padding: 30px 0;
+    }
+
+    .contacto_tarjeta {
+        grid-template-columns: 1fr;
+        grid-template-areas: "cabecera" "formulario" "datos";
+        padding: 35px 30px;
+        gap: 28px;
+    }
+
+    .contacto_datos {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contacto_items {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .contacto_disponible {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .contacto_btn {
+        width: 100%;
+        max-width: 420px;
+        text-align: center;
+    }
+
+    .contacto_macetas {
+        width: 135px;
+        left: -15px;
+    }
+
+    .contacto_chica {
+        width: 145px;
+        bottom: 10px;
+        right: 0;
+        z-index: 3;
+    }
+
+    /* Footer */
+    .cont_footer {
+        grid-template-columns: 1fr auto;
+        grid-template-areas: "menu menu" "info redes";
+        gap: 25px;
+        align-items: end;
+    }
+
+    .footer_menu {
+        width: 100%;
+    }
+
+    .footer_menu ul {
+        justify-content: center;
+    }
+
+    .footer_menu ul li a {
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+
+    .footer_redes {
+        justify-content: flex-end;
+    }
+}

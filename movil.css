@@ -1,0 +1,283 @@
+@media (max-width: 480px) {
+
+    header {
+        width: 100%;
+        height: auto;
+    }
+
+    .cont_menu {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .cont_logo {
+        width: 100%;
+        justify-content: space-between;
+        padding: 15px 0;
+    }
+
+    .menu {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu a {
+        color: var(--beige_rosa);
+        font-size: 24px;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+        text-align: left;
+    }
+
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav ul li a {
+        display: block;
+        font-size: 16px;
+        padding: 12px 15px;
+        text-decoration: none;
+        color: var(--cafe_menu);
+        border-bottom: 1px solid #D9B7AD;
+
+    }
+
+    nav ul li a i {
+        font-size: 16px;
+    }
+
+    nav ul li a:hover {
+        color: var(--terracota);
+        background-color: var(--cafe_btn_hover_menu);
+        border-radius: 0%;
+    }
+
+    .cont_banner {
+        padding: 15px;
+    }
+
+    .banner_titulo {
+        font-size: 50px;
+    }
+
+    .banner_bio {
+        padding: 20px 0px;
+    }
+
+    .banner_imagen {
+        width: 100%;
+        height: 300px;
+    }
+
+    .banner_acciones {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Sección Sobre Mí */
+    .sobre_mi {
+        padding: 0px 0;
+    }
+
+    .cont_sobre_mi {
+        grid-template-areas:
+            "info"
+            "ficha"
+            "cualidades"
+            "carrusel";
+        gap: 25px;
+    }
+
+    .ficha_profesional {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "foto"
+            "titulo"
+            "lista";
+    }
+
+    .ficha_foto {
+        height: 220px;
+    }
+
+    .sobre_mi_cualidades {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .cualidad_extra {
+        display: none;
+    }
+
+    .carrusel_cualidades {
+        grid-area: carrusel;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        margin-top: 10px;
+    }
+
+    .deco_hoja_izq {
+        display: none;
+    }
+
+    .deco_leon_der {
+        top: 55px;
+        right: 0;
+    }
+
+    .deco_hoja_abajo_izq {
+        bottom: -30px;
+        left: -15px;
+    }
+
+    .deco_hoja_abajo_der {
+        bottom: -30px;
+        right: -15px;
+    }
+
+    /* Sección Formación Académica */
+
+    .formacion_titulo {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .formacion_foto {
+        min-height: 200px;
+        height: 350px;
+    }
+
+    .formacion_info {
+        padding: 22px;
+    }
+
+    /* Sección Experiencia Laboral */
+    .experiencia {
+        padding: 40px 0;
+    }
+
+    .cont_experiencia .carrusel_flecha {
+        display: none;
+    }
+
+    .exp_foto {
+        min-height: 250px;
+        height: 300px;
+    }
+
+    /* Sección Habilidades */
+    .habilidades {
+        padding: 40px 0;
+    }
+
+    .hab_leon_izq {
+        display: none;
+    }
+
+    .hab_leon_der {
+        top: 30px;
+        right: 0;
+    }
+
+    .hab_logos {
+        gap: 25px 25px;
+    }
+
+    .hab_item {
+        height: 55px;
+    }
+
+    /* Sección Proyectos */
+    .proyectos {
+        padding: 40px 0;
+    }
+
+    .proy_deco_amico,
+    .proy_deco_vector,
+    .proy_estrella_1,
+    .proy_estrella_2 {
+        display: none;
+    }
+
+    .proy_texto {
+        padding-left: 0;
+    }
+
+    .proy_info {
+        padding: 22px 18px;
+    }
+
+    .proy_amico_movil {
+        display: block;
+        width: 180px;
+        margin: 0 auto 22px auto;
+    }
+
+    .proy_amico_movil img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .proy_carac_item {
+        padding: 12px 5px;
+    }
+
+    /* Sección Contacto */
+    .contacto {
+        padding: 40px 0;
+    }
+
+    .contacto_tarjeta {
+        padding: 25px 18px;
+    }
+
+    .contacto_btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contacto_macetas {
+        display: none;
+    }
+
+    .contacto_chica {
+        width: 105px;
+        bottom: -40px;
+        right: 10px;
+    }
+
+    /* Footer */
+    .cont_footer {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "info"
+            "redes";
+    }
+
+    .footer_menu {
+        display: none;
+    }
+
+    .footer_redes {
+        justify-content: center;
+    }
+
+}
